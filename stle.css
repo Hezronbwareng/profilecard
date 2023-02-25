@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(p1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .profile-box{
+    background: #8f6488;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 25px;
+}
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+.container h3{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+ .container h3:hover{
+    color: blue;
+ }
+ .container p{
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .container p:hover{
+    color: blue;
+ }
